@@ -1,0 +1,26 @@
+.footer{
+    background-color: #e2e2e2;
+
+    margin-top: 68px;
+    .gallery ,.contact {
+        float: $float-left;
+
+    }
+    .gallery{
+        width: 50%;
+
+        h4{
+            color:$redColor ;
+            
+        }
+        .img-box{
+            margin-bottom: 20px;
+            img{
+                float: $float-left;
+                border-radius: 50%;
+            }
+            
+        }
+        
+    }
+}
